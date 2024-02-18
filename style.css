@@ -1,0 +1,55 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Verdana, sans-serif;
+    text-align: center;
+    background-color: aqua;
+    padding: 20px;
+}
+
+/* Heading styles */
+#myH1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Input styles */
+input {
+    font-size: 1em;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Button styles */
+#myButton {
+    font-size: 1.5em;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#myButton:hover {
+    background-color: #45a049;
+}
+
+/* Label styles */
+label {
+    font-size: 1.2em;
+}
+
+/* Random number display styles */
+#label {
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 20px;
+}
